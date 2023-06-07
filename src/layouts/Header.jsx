@@ -5,7 +5,7 @@ function Header() {
 
     return (
         <header>
-            <div className='h-16 bg-red-500 shadow-lg'>
+            <div className='h-16 bg-red-500 shadow-xl'>
                 <div className='flex justify-around items-center h-full'>
                     <Brand />
                     <Search />
