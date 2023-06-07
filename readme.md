@@ -1,4 +1,5 @@
 # Pokedex
+A small project where you can find detailed information about Pokemon.
 
 ## Techs:
 
@@ -12,7 +13,7 @@
 
 ### DEMO 🔴
 
-Client: https://poke--dex.netlify.app/
+Client: https://1pokedex.netlify.app/
 
 ## Install:
 
