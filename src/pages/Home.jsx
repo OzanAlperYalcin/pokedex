@@ -34,7 +34,7 @@ function Home() {
   return (
     <>
       <Alert isAlert={alert} value={location.state} />
-      <section className='container m-auto'>
+      <section className='container m-auto p-5'>
         <DataList data={data} />
         <Pagination page={page} />
       </section>
