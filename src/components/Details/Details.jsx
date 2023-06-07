@@ -9,7 +9,7 @@ function Details({ data }) {
     return (
         <div className="col-span-5 lg:col-span-4 flex flex-col divide-y-2 divide-zinc-200 pb-5 lg:p-5 gap-2.5">
             <div className="flex justify-between items-center text-center px-5">
-                <h1 className="title" >{upperHandle(data.name)}</h1>
+                <h1 className="title" >{`#${data.id} ${upperHandle(data.name)}`}</h1>
                 <div>
                     {data.types.map((type, i) => (
                         <Types key={i} className="m-1 py-1 px-2 text-xs text-white font-semibold rounded-md">

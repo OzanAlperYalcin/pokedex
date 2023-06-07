@@ -38,6 +38,7 @@ function useFetch() {
             const result = await response.json()
             if (response.status === 200) {
                 const data = {
+                    id: result.id,
                     name: result.name,
                     image: result.sprites['front_default'],
                     types: result.types,
