@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply text-3xl font-bold font-caveat
+    }
+    .btn-search {
+        @apply absolute right-0 h-10 px-2 bg-green-500 hover:bg-green-400 rounded-r-xl border-2 border-black group-focus-within:border-green-500 text-white font-bold text-xs transition-all
+    }
+    .btn-primary {
+        @apply h-10 px-2.5 disabled:bg-zinc-400 disabled:hover:bg-zinc-400 disabled:cursor-not-allowed rounded-md text-white text-xs font-bold transition-all ease-in-out duration-300
+    }
+    .card {
+        @apply bg-white border border-zinc-300 rounded-xl shadow-xl
+    }
+}
+
+@layer base {
+    html, body {
+        background-color: #fafafa;
+    }
+}
