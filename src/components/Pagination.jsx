@@ -3,7 +3,7 @@ function Pagination({ page, setQuery }) {
     const pageHandle = (url) => {
         const regex = /[?&]([^=#]+)=([^&#]*)/g;
         const match = url.match(regex).join("")
-        window.location.href = 'http://localhost:5173/'+match
+        window.location.href = '/'+match
     }
 
     return (
